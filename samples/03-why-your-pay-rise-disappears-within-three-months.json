@@ -1,0 +1,124 @@
+{
+  "model": "gpt-6-luna",
+  "input": {
+    "niche": "Personal finance",
+    "topic": "why your pay rise disappears within three months",
+    "target_seconds": 45,
+    "tone": "calm expert"
+  },
+  "budget": {
+    "seconds": 45,
+    "total": 112,
+    "hook": 13,
+    "body": 88,
+    "cta": 11,
+    "total_min": 101,
+    "total_max": 123
+  },
+  "research": [],
+  "directions": [
+    {
+      "kind": "Surprising",
+      "format": "Myth vs reality",
+      "angle": "The raise often feels gone not because of one expensive treat, but because recurring costs quietly reset around the larger paycheck.",
+      "hook": "Your pay rise usually disappears through monthly commitments, not one big purchase.",
+      "brief": "Contrast the tempting one-off-spending explanation with how recurring expenses absorb new take-home pay over a few pay cycles. Viewers learn to look for the monthly costs that keep repeating, not just the purchase they remember.",
+      "beats": [
+        "Myth: one dinner or gadget erased the raise; reality: a single purchase ends, but a new monthly bill repeats.",
+        "Show how a larger paycheck can make a higher rent, car payment, or subscription feel manageable when each decision is made separately.",
+        "Land the check: compare old and new fixed monthly costs against the actual increase in take-home pay."
+      ]
+    },
+    {
+      "kind": "Story",
+      "format": "POV or story",
+      "angle": "Follow the raise through three paydays, showing how ordinary decisions—not a dramatic splurge—make it hard to notice.",
+      "hook": "The raise hit my account—and by month three, I couldn't find it.",
+      "brief": "Tell this as a specific, modest story using the creator’s real figures: the first payday, the new recurring expense, and the third-month balance. Viewers see how to trace a raise through their own account without blaming one memorable purchase.",
+      "beats": [
+        "On payday one, name the real increase in take-home pay and the small amount that seemed available after existing bills.",
+        "By payday two, show one actual recurring change—such as a higher rent or payment—that now claims part of the increase.",
+        "At month three, compare the raise with the new monthly commitments to reveal exactly where the breathing room went."
+      ]
+    },
+    {
+      "kind": "Practical",
+      "format": "Mini tutorial",
+      "angle": "Give the raise a job before everyday spending adjusts, using the first payday as the decision point.",
+      "hook": "Your raise has one safe window: before your monthly spending adjusts.",
+      "brief": "Walk through a three-step payday setup that separates the increase from the account used for daily spending. Viewers leave with a concrete way to preserve some of the raise before new recurring costs take hold.",
+      "beats": [
+        "To avoid mistaking gross pay for spendable money, check the first new paystub and use the take-home increase—not the headline raise—as your number.",
+        "Before changing your usual spending, set an automatic transfer on payday for an amount you can sustain, even if it is small.",
+        "After one month, check whether that transfer cleared without overdrawing the account; adjust the amount before adding a new monthly bill."
+      ]
+    }
+  ],
+  "chosen_index": 0,
+  "recommendation_reason": "The contrast between a memorable splurge and quiet recurring costs creates a strong curiosity gap, then pays it off with a clear account check viewers can share.",
+  "output": {
+    "hook": "The treat you remember isn't the problem; the monthly bill you forgot is.",
+    "body": "The dinner or phone upgrade gets blamed because you remember buying it. But that cost ends; a new monthly payment takes money every month.\n\nA bigger paycheck can make higher rent, a car payment, or another subscription feel manageable. Each decision arrives separately, so the total is easy to miss.\n\nAfter a few pay cycles, those bills are already spoken for. Compare your old and new fixed monthly costs with the actual increase in take-home pay.\n\nFor example, a $300 net raise and $260 in new bills leaves just $40 before food and one-off spending. That's where the raise went.",
+    "cta": "Save this for payday before another monthly bill settles in."
+  },
+  "stats": {
+    "words": {
+      "hook": 13,
+      "body": 100,
+      "cta": 10,
+      "total": 123
+    },
+    "seconds": 49.2
+  },
+  "review": {
+    "best_hook": 1,
+    "hook_score": 4,
+    "hook_problem": "The contrast is memorable, but the consequence of a recurring bill could be sharper.",
+    "hook_fix": "Make the difference between a one-time treat and a bill that keeps reducing each paycheck more immediate.",
+    "body_pays_off": true,
+    "body_score": 4,
+    "body_problem": "“A new monthly payment takes money every month” repeats the point that “those bills are already spoken for.”",
+    "tone_score": 4,
+    "tone_fix": "Keep the ending as precise as the example by distinguishing money committed to bills from money truly gone.",
+    "cta_score": 4,
+    "cta_fix": "Make the save request point directly to comparing new fixed costs against the take-home raise on payday.",
+    "unsupported_claim": "none",
+    "niche_pass": true,
+    "niche_problem": "none"
+  },
+  "remaining_issues": [],
+  "drafts": [
+    {
+      "script": {
+        "hook": "The treat you remember isn't the problem; the monthly bill you forgot is.",
+        "body": "The dinner or phone upgrade gets blamed because you remember buying it. But that cost ends; a new monthly payment takes money every month.\n\nA bigger paycheck can make higher rent, a car payment, or another subscription feel manageable. Each decision arrives separately, so the total is easy to miss.\n\nAfter a few pay cycles, those bills are already spoken for. Compare your old and new fixed monthly costs with the actual increase in take-home pay.\n\nFor example, a $300 net raise and $260 in new bills leaves just $40 before food and one-off spending. That's where the raise went.",
+        "cta": "Save this for payday before another monthly bill settles in."
+      },
+      "hook_options": [
+        "Your pay rise usually disappears through monthly commitments, not one big purchase.",
+        "The treat you remember isn't the problem; the monthly bill you forgot is.",
+        "A $40 monthly bill costs $480 a year, long after the treat is forgotten."
+      ],
+      "review": {
+        "best_hook": 1,
+        "hook_score": 4,
+        "hook_problem": "The contrast is memorable, but the consequence of a recurring bill could be sharper.",
+        "hook_fix": "Make the difference between a one-time treat and a bill that keeps reducing each paycheck more immediate.",
+        "body_pays_off": true,
+        "body_score": 4,
+        "body_problem": "“A new monthly payment takes money every month” repeats the point that “those bills are already spoken for.”",
+        "tone_score": 4,
+        "tone_fix": "Keep the ending as precise as the example by distinguishing money committed to bills from money truly gone.",
+        "cta_score": 4,
+        "cta_fix": "Make the save request point directly to comparing new fixed costs against the take-home raise on payday.",
+        "unsupported_claim": "none",
+        "niche_pass": true,
+        "niche_problem": "none"
+      },
+      "issues": []
+    }
+  ],
+  "requested_format": null,
+  "generation_seconds": 53.1,
+  "max_revisions": 3
+}

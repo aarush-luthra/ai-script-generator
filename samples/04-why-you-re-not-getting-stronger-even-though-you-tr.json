@@ -1,0 +1,153 @@
+{
+  "model": "gpt-6-luna",
+  "input": {
+    "niche": "Fitness",
+    "topic": "why you're not getting stronger even though you train every day",
+    "target_seconds": 45,
+    "tone": "blunt"
+  },
+  "budget": {
+    "seconds": 45,
+    "total": 112,
+    "hook": 13,
+    "body": 88,
+    "cta": 11,
+    "total_min": 101,
+    "total_max": 123
+  },
+  "research": [],
+  "directions": [
+    {
+      "kind": "Surprising",
+      "format": "Myth vs reality",
+      "angle": "Training every day can be the reason your lifts stall: effort without enough recovery keeps you repeating tired sessions.",
+      "hook": "Training every day can keep you weak, even when you work hard.",
+      "brief": "Bust the idea that more gym days automatically mean more strength, then show three signs your schedule is outpacing your recovery. The viewer leaves knowing what to change before the next session and what progress to track.",
+      "beats": [
+        "Reality: if the same lift feels heavier for two sessions in a row, stop adding load; log the weight and reps instead.",
+        "If your reps drop session to session, cut one hard set from that lift for a week rather than forcing another grindy set.",
+        "Put at least one rest day between hard sessions for the same muscle group; add weight only after you hit your target reps with clean form."
+      ]
+    },
+    {
+      "kind": "Story",
+      "format": "Confession or mistake",
+      "angle": "A lifter’s daily-training mistake isn’t laziness or bad genetics: it’s treating every session like a test instead of building on the last one.",
+      "hook": "I trained every day and kept proving I was stuck.",
+      "brief": "Tell the story of a lifter who kept testing heavy sets, then noticed their reps and warm-ups slipping; swap in your own details if needed. The viewer gets a clear fix: stop retesting, record working sets, and earn the next weight increase.",
+      "beats": [
+        "The mistake: taking the first working set near failure every day, so later sets lose reps; name the lift and the drop you actually saw.",
+        "The change: leave about two reps in reserve on most sets and write down load and reps after each session.",
+        "The payoff: when every set reaches the top of your rep range with solid form, add the smallest available weight jump next time."
+      ]
+    },
+    {
+      "kind": "Practical",
+      "format": "Mini tutorial",
+      "angle": "Instead of guessing whether daily training is working, use three logged signals to decide what to adjust next.",
+      "hook": "If your strength is stuck, stop guessing and check these three numbers.",
+      "brief": "Walk through a simple log-based check for stalled lifts, falling reps, and too-frequent hard sessions. The viewer leaves with a rule for the next workout: keep, reduce, or increase the load based on recorded performance.",
+      "beats": [
+        "Write down the lift, weight, and reps; without that, “I train hard” tells you nothing about progress.",
+        "If reps fall at the same weight across two sessions, remove one hard set for that lift next week and compare again.",
+        "When you complete all planned sets at the top of your rep range, add a small weight increment; if not, repeat the load."
+      ]
+    }
+  ],
+  "chosen_index": 1,
+  "recommendation_reason": "The blunt contradiction in the hook creates the strongest open loop, and the final beat resolves it with a measurable rule for the very next workout.",
+  "output": {
+    "hook": "If your first set is a grinder, you're sacrificing reps you need to build.",
+    "body": "On bench, I took the first work set near failure every day. I’d get 8 reps, then 5 on the next set, even at the same weight. My warm-ups started feeling heavy. I was testing myself, not building strength.\n\nKeep about two reps in reserve on most sets. Choose a range, say 6 to 10, and log the load and reps after every session. When every set reaches 10 with clean form, add the smallest weight jump next time. Then start near 6. That gives you a target without retesting your limit every workout.",
+    "cta": "Comment: did your bench reps hold across all your sets?"
+  },
+  "stats": {
+    "words": {
+      "hook": 14,
+      "body": 94,
+      "cta": 10,
+      "total": 118
+    },
+    "seconds": 47.2
+  },
+  "review": {
+    "best_hook": 0,
+    "hook_score": 4,
+    "hook_problem": "The cost is clear, but “reps you need to build” is broad rather than tied to the bench-set example.",
+    "hook_fix": "Make the lost reps concrete by linking the grinder to the drop-off on the next set.",
+    "body_pays_off": true,
+    "body_score": 4,
+    "body_problem": "“That gives you a target without retesting your limit every workout” ends on a general benefit instead of a concrete payoff.",
+    "tone_score": 4,
+    "tone_fix": "Make the final line as decisive as the diagnosis and instructions.",
+    "cta_score": 5,
+    "cta_fix": "none",
+    "unsupported_claim": "none",
+    "niche_pass": true,
+    "niche_problem": "none"
+  },
+  "remaining_issues": [],
+  "drafts": [
+    {
+      "script": {
+        "hook": "If your first set is a grinder, you're sacrificing reps you need to build.",
+        "body": "On bench, I took the first work set near failure every day. I’d get 8 reps, then 5 on the next set, even at the same weight. My warm-ups started feeling heavy. I was testing myself, not building strength.\n\nKeep about two reps in reserve on most sets. Choose a range, say 6 to 10, and log the load and reps after every session. When every set reaches 10 with clean form, add the smallest weight jump next time. Then start near 6. That gives you a target without retesting your limit every workout.",
+        "cta": "Try it on bench next session; tell me if your reps hold."
+      },
+      "hook_options": [
+        "I trained every day and kept proving I was stuck.",
+        "Testing your strength every workout is why your numbers aren't moving.",
+        "If your first set is a grinder, you're sacrificing reps you need to build."
+      ],
+      "review": {
+        "best_hook": 2,
+        "hook_score": 4,
+        "hook_problem": "“Sacrificing reps you need” is compelling, but the body shows a drop from 8 reps to 5 without directly showing how that costs progress over time.",
+        "hook_fix": "Tie the lost reps to the specific bench-set drop the body describes.",
+        "body_pays_off": true,
+        "body_score": 4,
+        "body_problem": "“That gives you a target without retesting your limit every workout” repeats the point that you were testing yourself rather than building strength.",
+        "tone_score": 4,
+        "tone_fix": "Cut the explanatory wrap-up and let the short instruction stand on its own.",
+        "cta_score": 3,
+        "cta_fix": "Make one ask tied to whether your bench reps hold instead of asking viewers to try it and report back.",
+        "unsupported_claim": "none",
+        "niche_pass": true,
+        "niche_problem": "none"
+      },
+      "issues": [
+        "An editor scored the CTA 3/5. Fix: Make one ask tied to whether your bench reps hold instead of asking viewers to try it and report back."
+      ]
+    },
+    {
+      "script": {
+        "hook": "If your first set is a grinder, you're sacrificing reps you need to build.",
+        "body": "On bench, I took the first work set near failure every day. I’d get 8 reps, then 5 on the next set, even at the same weight. My warm-ups started feeling heavy. I was testing myself, not building strength.\n\nKeep about two reps in reserve on most sets. Choose a range, say 6 to 10, and log the load and reps after every session. When every set reaches 10 with clean form, add the smallest weight jump next time. Then start near 6. That gives you a target without retesting your limit every workout.",
+        "cta": "Comment: did your bench reps hold across all your sets?"
+      },
+      "hook_options": [
+        "If your first set is a grinder, you're sacrificing reps you need to build."
+      ],
+      "review": {
+        "best_hook": 0,
+        "hook_score": 4,
+        "hook_problem": "The cost is clear, but “reps you need to build” is broad rather than tied to the bench-set example.",
+        "hook_fix": "Make the lost reps concrete by linking the grinder to the drop-off on the next set.",
+        "body_pays_off": true,
+        "body_score": 4,
+        "body_problem": "“That gives you a target without retesting your limit every workout” ends on a general benefit instead of a concrete payoff.",
+        "tone_score": 4,
+        "tone_fix": "Make the final line as decisive as the diagnosis and instructions.",
+        "cta_score": 5,
+        "cta_fix": "none",
+        "unsupported_claim": "none",
+        "niche_pass": true,
+        "niche_problem": "none"
+      },
+      "issues": []
+    }
+  ],
+  "requested_format": "confession or mistake",
+  "generation_seconds": 47.1,
+  "max_revisions": 3
+}

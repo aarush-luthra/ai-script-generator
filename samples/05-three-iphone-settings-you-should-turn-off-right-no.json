@@ -1,0 +1,191 @@
+{
+  "model": "gpt-6-luna",
+  "input": {
+    "niche": "Tech",
+    "topic": "three iPhone settings you should turn off right now",
+    "target_seconds": 30,
+    "tone": "conversational"
+  },
+  "budget": {
+    "seconds": 30,
+    "total": 75,
+    "hook": 9,
+    "body": 58,
+    "cta": 8,
+    "total_min": 68,
+    "total_max": 82
+  },
+  "research": [
+    {
+      "claim": "Background App Refresh lets suspended apps check for updates and new content; you can turn it off in Settings > General > Background App Refresh.",
+      "source_url": "https://support.apple.com/en-la/118408"
+    },
+    {
+      "claim": "Turning off Background App Refresh can mean apps won’t check for new content until you open them.",
+      "source_url": "https://support.apple.com/en-la/118408"
+    },
+    {
+      "claim": "You can turn off Significant Locations & Routes at Settings > Privacy & Security > Location Services > System Services > Significant Locations & Routes.",
+      "source_url": "https://support.apple.com/en-ca/guide/personal-safety/ips9bf20ad2f/web"
+    },
+    {
+      "claim": "Apple says Significant Locations & Routes can help provide relevant information in apps such as Maps, Calendar, and Photos.",
+      "source_url": "https://support.apple.com/en-ca/guide/personal-safety/ips9bf20ad2f/web"
+    },
+    {
+      "claim": "To stop sharing iPhone analytics with Apple, go to Settings > Privacy & Security > Analytics or Analytics & Improvements, then turn off Share iPhone & Watch Analytics.",
+      "source_url": "https://support.apple.com/en-us/108971"
+    },
+    {
+      "claim": "Apple says analytics and diagnostic information helps it improve iOS, and that this information is collected anonymously.",
+      "source_url": "https://support.apple.com/en-us/108971"
+    },
+    {
+      "claim": "You can turn off Apple’s personalized ads at Settings > Privacy & Security > Apple Advertising > Personalized Ads.",
+      "source_url": "https://support.apple.com/guide/iphone/control-how-apple-delivers-advertising-to-you-iphf60a6a256/27/ios/27"
+    },
+    {
+      "claim": "Turning off Apple’s personalized ads may not reduce the number of ads you see; it may make them less relevant instead.",
+      "source_url": "https://support.apple.com/guide/iphone/control-how-apple-delivers-advertising-to-you-iphf60a6a256/27/ios/27"
+    }
+  ],
+  "directions": [
+    {
+      "kind": "Surprising",
+      "format": "myth vs reality",
+      "angle": "Turning these off isn’t a blanket upgrade: each trades convenience or relevance for less background activity, location history, or ad personalization.",
+      "hook": "Turning off every iPhone privacy setting can make your phone less useful.",
+      "brief": "I’ll count down three settings people often switch off, pairing each privacy trade-off with what you lose. You’ll know which one is worth turning off—and which one I’d leave alone.",
+      "beats": [
+        "Number 3: Apple’s Personalized Ads, under Apple Advertising, can be turned off; expect ads to be less relevant, not necessarily fewer.",
+        "Number 2: Background App Refresh, under General, lets suspended apps check for new content, so turning it off can mean waiting until you open them; Number 1: Significant Locations & Routes, under Location Services’ System Services, can inform Maps, Calendar, and Photos, so I’d keep it on unless you’d rather trade that convenience for less saved location history."
+      ]
+    },
+    {
+      "kind": "Story",
+      "format": "confession or mistake",
+      "angle": "A relatable privacy clean-up starts with the setting people are most tempted to disable, then reveals why an all-off sweep can backfire.",
+      "hook": "I nearly turned off three iPhone settings at once—and caught one trade-off I’d hate.",
+      "brief": "I’ll walk through a quick privacy clean-up, counting down three settings and the moment each made me pause. You’ll leave with a clear choice about which trade-offs feel worth it on your own phone.",
+      "beats": [
+        "Number 3: Apple’s Personalized Ads, under Apple Advertising, may make ads less relevant, but turning them off may not mean seeing fewer; Number 2: Background App Refresh, under General, can stop suspended apps checking for new content, so they may wait until you open them.",
+        "Number 1: Significant Locations & Routes, under Location Services’ System Services, can help Maps, Calendar, and Photos provide relevant information; I’d pause before switching it off if you value that convenience."
+      ]
+    },
+    {
+      "kind": "Practical",
+      "format": "mini tutorial",
+      "angle": "Instead of treating every setting as an automatic off-switch, help viewers make three quick, informed keep-or-turn-off decisions.",
+      "hook": "Before you switch off iPhone settings, check what each one actually costs you.",
+      "brief": "I’ll count down three settings and give the reason to change each one before naming where it lives. You’ll have a simple privacy check that also makes the trade-offs clear.",
+      "beats": [
+        "Number 3: If you’d rather Apple not personalize ads, turn off Personalized Ads under Apple Advertising; the ads may be less relevant, not fewer.",
+        "Number 2: If you don’t need suspended apps checking for new content, turn off Background App Refresh under General; Number 1: If you’d rather not keep Significant Locations & Routes on, switch it off in Location Services’ System Services, knowing Apple says it can help Maps, Calendar, and Photos provide relevant information."
+      ]
+    }
+  ],
+  "chosen_index": 0,
+  "recommendation_reason": "The surprising countdown opens a real tension and saves its most consequential keep-or-turn-off judgment for the final beat, giving viewers a reason to stay for the verdict.",
+  "output": {
+    "hook": "Turning off every iPhone privacy setting can make your phone less useful.",
+    "body": "Number 3, you may get less relevant ads, not fewer, if you turn off Personalized Ads under Apple Advertising.\n\nNumber 2, apps may wait for content until opened if you turn off Background App Refresh under General.\n\nNumber 1, I’d keep Significant Locations & Routes on; it can make Maps, Calendar, and Photos more relevant. Turn it off for less location history.",
+    "cta": "Which matters more: Maps help or less location history?"
+  },
+  "stats": {
+    "words": {
+      "hook": 12,
+      "body": 61,
+      "cta": 9,
+      "total": 82
+    },
+    "seconds": 32.8
+  },
+  "review": {
+    "best_hook": 0,
+    "hook_score": 4,
+    "hook_problem": "“Every” overstates what the body demonstrates with three settings.",
+    "hook_fix": "Narrow the claim to a few privacy settings and keep the useful-versus-private tradeoff.",
+    "body_pays_off": true,
+    "body_score": 4,
+    "body_problem": "“Turn it off for less location history” makes a claim the supplied facts don’t explicitly support.",
+    "tone_score": 4,
+    "tone_fix": "Add one small conversational aside so the numbered list feels less like a readout.",
+    "cta_score": 5,
+    "cta_fix": "none",
+    "unsupported_claim": "“less location history”",
+    "niche_pass": false,
+    "niche_problem": "The body doesn’t name a menu for “Significant Locations & Routes,” so viewers may not know where to find it."
+  },
+  "remaining_issues": [
+    "Not backed by the research: “less location history” Use a researched fact or make it an opinion.",
+    "Fails the Tech playbook: The body doesn’t name a menu for “Significant Locations & Routes,” so viewers may not know where to find it."
+  ],
+  "drafts": [
+    {
+      "script": {
+        "hook": "Turning off every iPhone privacy setting can make your phone less useful.",
+        "body": "Number 3: Apple Advertising’s Personalized Ads. Turn them off; ads may be less relevant, not fewer.\n\nNumber 2: Background App Refresh, under General, lets suspended apps check for content. Off means some may wait until opened.\n\nNumber 1: Significant Locations & Routes, in Location Services’ System Services, helps Maps, Calendar, and Photos. I’d keep it on unless less location history matters more.",
+        "cta": "Which trade-off would you take?"
+      },
+      "hook_options": [
+        "Turning off every iPhone privacy setting can make your phone less useful.",
+        "You may be switching off iPhone features without knowing what convenience they cost."
+      ],
+      "review": {
+        "best_hook": 0,
+        "hook_score": 4,
+        "hook_problem": "“Every” makes the claim broad, and the hook doesn’t hint at which useful features viewers might lose.",
+        "hook_fix": "Tease one concrete convenience cost so viewers know what’s at stake.",
+        "body_pays_off": true,
+        "body_score": 3,
+        "body_problem": "“Number 3,” “Number 2,” and “Number 1” make the body feel like list notes rather than a conversation.",
+        "tone_score": 3,
+        "tone_fix": "Connect the short fragments with a little spoken, personal phrasing beyond “I’d keep it on.”",
+        "cta_score": 4,
+        "cta_fix": "None.",
+        "unsupported_claim": "none",
+        "niche_pass": true,
+        "niche_problem": "none"
+      },
+      "issues": [
+        "An editor scored the body 3/5: “Number 3,” “Number 2,” and “Number 1” make the body feel like list notes rather than a conversation.",
+        "An editor scored the conversational tone 3/5. Fix: Connect the short fragments with a little spoken, personal phrasing beyond “I’d keep it on.”"
+      ]
+    },
+    {
+      "script": {
+        "hook": "Turning off every iPhone privacy setting can make your phone less useful.",
+        "body": "Number 3, you may get less relevant ads, not fewer, if you turn off Personalized Ads under Apple Advertising.\n\nNumber 2, apps may wait for content until opened if you turn off Background App Refresh under General.\n\nNumber 1, I’d keep Significant Locations & Routes on; it can make Maps, Calendar, and Photos more relevant. Turn it off for less location history.",
+        "cta": "Which matters more: Maps help or less location history?"
+      },
+      "hook_options": [
+        "Turning off every iPhone privacy setting can make your phone less useful.",
+        "Why would I leave one location setting on for Maps?",
+        "Apple’s ad switch can make ads less relevant without showing you fewer."
+      ],
+      "review": {
+        "best_hook": 0,
+        "hook_score": 4,
+        "hook_problem": "“Every” overstates what the body demonstrates with three settings.",
+        "hook_fix": "Narrow the claim to a few privacy settings and keep the useful-versus-private tradeoff.",
+        "body_pays_off": true,
+        "body_score": 4,
+        "body_problem": "“Turn it off for less location history” makes a claim the supplied facts don’t explicitly support.",
+        "tone_score": 4,
+        "tone_fix": "Add one small conversational aside so the numbered list feels less like a readout.",
+        "cta_score": 5,
+        "cta_fix": "none",
+        "unsupported_claim": "“less location history”",
+        "niche_pass": false,
+        "niche_problem": "The body doesn’t name a menu for “Significant Locations & Routes,” so viewers may not know where to find it."
+      },
+      "issues": [
+        "Not backed by the research: “less location history” Use a researched fact or make it an opinion.",
+        "Fails the Tech playbook: The body doesn’t name a menu for “Significant Locations & Routes,” so viewers may not know where to find it."
+      ]
+    }
+  ],
+  "requested_format": null,
+  "generation_seconds": 126.2,
+  "max_revisions": 3
+}

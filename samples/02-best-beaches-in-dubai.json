@@ -1,0 +1,234 @@
+{
+  "model": "gpt-6-luna",
+  "input": {
+    "niche": "Travel",
+    "topic": "best beaches in Dubai",
+    "target_seconds": 30,
+    "tone": "energetic"
+  },
+  "budget": {
+    "seconds": 30,
+    "total": 75,
+    "hook": 9,
+    "body": 58,
+    "cta": 8,
+    "total_min": 68,
+    "total_max": 82
+  },
+  "research": [
+    {
+      "claim": "Kite Beach is known for kitesurfing and also has beach volleyball, beach tennis, a skatepark and children’s play facilities.",
+      "source_url": "https://www.visitdubai.com/en/articles/guide-to-dubais-beach-culture"
+    },
+    {
+      "claim": "Kite Beach’s listed free amenities include washrooms, showers, Wi-Fi, a cycling track and baby-changing rooms; parking, umbrellas and lounge chairs are paid services.",
+      "source_url": "https://kitebeach.ae/"
+    },
+    {
+      "claim": "Kite Beach’s official site lists retail, leisure and entertainment hours as 10 a.m. to 10 p.m.; food and beverage outlets are listed until midnight Friday through Sunday.",
+      "source_url": "https://kitebeach.ae/"
+    },
+    {
+      "claim": "JBR’s public beach stretches 1.7 kilometres and offers water sports including jet skiing, kayaking, parasailing and banana boat rides.",
+      "source_url": "https://www.visitdubai.com/explore-dubai/dubai-neighbourhoods/jumeirah-beach-residence"
+    },
+    {
+      "claim": "The Beach at JBR combines the shoreline with restaurants, cafés, shops and family activities, including a children’s train.",
+      "source_url": "https://www.visitdubai.com/places-to-visit/beach-jbr"
+    },
+    {
+      "claim": "Al Mamzar Beach Park has five beaches, three swimming pools and covers 106 hectares.",
+      "source_url": "https://www.visitdubai.com/en/places-to-visit/al-mamzar-beach-park"
+    },
+    {
+      "claim": "Khor Al Mamzar Beach has a 300-metre night-swimming beach that operates 24 hours a day.",
+      "source_url": "https://www.mediaoffice.ae/en/news/2026/may/05-05/dubai-municipality-opens-khor-al-mamzar-beach-to-the-public"
+    },
+    {
+      "claim": "Khor Al Mamzar Beach has more than 5.5 kilometres of walking, running and cycling tracks, plus volleyball and padel courts.",
+      "source_url": "https://www.mediaoffice.ae/en/news/2026/may/05-05/dubai-municipality-opens-khor-al-mamzar-beach-to-the-public"
+    },
+    {
+      "claim": "At Jumeirah Public Beach, also called Nessnass Beach, a section is open for swimming from sunset to sunrise, with floodlights and lifeguards.",
+      "source_url": "https://www.visitdubai.com/en/places-to-visit/jumeirah-nessnass-beach"
+    },
+    {
+      "claim": "Nessnass Beach is at 36 Al Nessnass Street in Jumeirah 3, behind Sunset Mall.",
+      "source_url": "https://www.visitdubai.com/en/places-to-visit/jumeirah-nessnass-beach"
+    }
+  ],
+  "directions": [
+    {
+      "kind": "Surprising",
+      "format": "Contrarian ranking",
+      "angle": "Dubai’s best beach isn’t one beach: the right pick changes when the sun goes down.",
+      "hook": "Dubai’s best beach depends on what time you swim.",
+      "brief": "Rank Kite Beach first for an active daytime visit, then flip the usual beach-day plan with two after-dark options. Viewers leave knowing which shoreline fits their hours, not just their photos.",
+      "beats": [
+        "Kite Beach wins for daytime action: kitesurfing, volleyball, beach tennis and a skatepark; washrooms and showers are free, but loungers cost extra.",
+        "After sunset, Nessnass has floodlit swimming with lifeguards; for a 24-hour swim, pick Khor Al Mamzar’s dedicated 300-metre night-swimming beach."
+      ]
+    },
+    {
+      "kind": "Story",
+      "format": "POV / story",
+      "angle": "A beach day goes wrong when the group wants three different things, so the fix is choosing by what happens next.",
+      "hook": "My Dubai beach day nearly split the group in three.",
+      "brief": "Start with friends disagreeing over sports, rides and a quiet swim, then make each beach the answer to the next argument. Viewers leave with a simple plan for keeping a mixed group together—or choosing the right beach for each split.",
+      "beats": [
+        "The sporty friend gets Kite Beach: kitesurfing, volleyball, beach tennis and a skatepark give them more than a towel-and-sun day.",
+        "The rest choose JBR for jet skiing or parasailing, then head to Al Mamzar for five beaches and three pools; pick the one that matches your group’s next move."
+      ]
+    },
+    {
+      "kind": "Practical",
+      "format": "Mini tutorial",
+      "angle": "Choose Dubai beach by your one must-have, so you don’t spend the day at the wrong shoreline.",
+      "hook": "Pick your Dubai beach by one question: what are you doing there?",
+      "brief": "Match each of two beach days to a concrete activity, then give a clear pick for families who want variety. Viewers leave with a quick decision rule instead of a generic beach checklist.",
+      "beats": [
+        "Want water sports and a lively shoreline? Choose JBR for jet skiing, kayaking, parasailing or banana boat rides, with cafés and shops right by the beach.",
+        "Need several options in one stop? Pick Al Mamzar: five beaches and three pools across 106 hectares make it the strongest choice for a family day."
+      ]
+    }
+  ],
+  "chosen_index": 0,
+  "recommendation_reason": "The day-to-night reversal opens a clear curiosity loop, and Khor Al Mamzar’s 24-hour swim gives the ranking a concrete, memorable payoff.",
+  "output": {
+    "hook": "Khor Al Mamzar keeps a 300-metre night-swimming beach open 24 hours.",
+    "body": "Kite Beach wins daylight. Kitesurf, play beach tennis, then hit the skatepark. Washrooms and showers are free; loungers cost extra.\n\nAt sunset, switch to Nessnass. Find it behind Sunset Mall; swimming runs sunset to sunrise, with floodlights and lifeguards.\n\nFor a late swim, Khor Al Mamzar has a dedicated 300-metre night-swimming beach, open 24 hours.",
+    "cta": "Save this Dubai beach ranking for your next trip."
+  },
+  "stats": {
+    "words": {
+      "hook": 11,
+      "body": 55,
+      "cta": 9,
+      "total": 75
+    },
+    "seconds": 30.0
+  },
+  "review": {
+    "best_hook": 0,
+    "hook_score": 4,
+    "hook_problem": "The precise 300-metre detail grabs attention, but the line gives little human stake beyond the fact itself.",
+    "hook_fix": "Tie the all-night beach detail to the late-swim decision it helps viewers make.",
+    "body_pays_off": true,
+    "body_score": 4,
+    "body_problem": "“Kite Beach wins daylight” makes a confident ranking claim, but the body gives only a brief list of activities as its case.",
+    "tone_score": 4,
+    "tone_fix": "Make the transitions carry more consequence so each beach choice pushes viewers toward the next.",
+    "cta_score": 3,
+    "cta_fix": "Ask viewers to save the three-beach day-to-night plan rather than a generic ranking.",
+    "unsupported_claim": "none",
+    "niche_pass": false,
+    "niche_problem": "“Find it behind Sunset Mall” is useful navigation, but the script has no detail that clearly feels learned from being there."
+  },
+  "remaining_issues": [
+    "An editor scored the CTA 3/5. Fix: Ask viewers to save the three-beach day-to-night plan rather than a generic ranking.",
+    "Fails the Travel playbook: “Find it behind Sunset Mall” is useful navigation, but the script has no detail that clearly feels learned from being there."
+  ],
+  "drafts": [
+    {
+      "script": {
+        "hook": "Dubai has a 300-metre beach for 24-hour night swimming.",
+        "body": "First, Kite Beach wins by day: kitesurf, play beach tennis, or hit the skatepark. Showers and washrooms are free; loungers cost extra.\n\nAt sunset, switch to Nessnass. Floodlights and lifeguards cover swimming from sunset to sunrise.\n\nNeed a midnight dip? Khor Al Mamzar has a dedicated 300-metre night-swimming beach, open 24 hours. So choose by clock, not by postcard.",
+        "cta": "Save this for your next Dubai beach day."
+      },
+      "hook_options": [
+        "Dubai’s best beach depends on when you swim.",
+        "The sun’s setting, and your beach plan should change.",
+        "Dubai has a 300-metre beach for 24-hour night swimming."
+      ],
+      "review": {
+        "best_hook": 2,
+        "hook_score": 4,
+        "hook_problem": "The 24-hour detail is specific, but the hook doesn’t yet create much tension around when to choose this beach.",
+        "hook_fix": "Sharpen the contrast with daytime beach options so the after-dark detail gives viewers a stronger reason to stay.",
+        "body_pays_off": true,
+        "body_score": 3,
+        "body_problem": "“So choose by clock, not by postcard” turns the ending into a takeaway instead of a concrete payoff.",
+        "tone_score": 3,
+        "tone_fix": "Break up the longer activity and amenity sentences, and make each transition land with a sharper consequence.",
+        "cta_score": 3,
+        "cta_fix": "Ask viewers to save this specific day-to-night Dubai beach shortlist for their next visit.",
+        "unsupported_claim": "none",
+        "niche_pass": false,
+        "niche_problem": "There’s no detail that feels specific to having been there; the locations are described through general activities and listed amenities."
+      },
+      "issues": [
+        "An editor scored the body 3/5: “So choose by clock, not by postcard” turns the ending into a takeaway instead of a concrete payoff.",
+        "An editor scored the energetic tone 3/5. Fix: Break up the longer activity and amenity sentences, and make each transition land with a sharper consequence.",
+        "An editor scored the CTA 3/5. Fix: Ask viewers to save this specific day-to-night Dubai beach shortlist for their next visit.",
+        "Fails the Travel playbook: There’s no detail that feels specific to having been there; the locations are described through general activities and listed amenities."
+      ]
+    },
+    {
+      "script": {
+        "hook": "Khor Al Mamzar keeps a 300-metre night-swimming beach open 24 hours.",
+        "body": "Kite Beach takes daylight.\n\nKitesurf, play volleyball, then hit the skatepark. Showers are free; loungers cost extra.\n\nBut sunset flips the ranking. Nessnass sits behind Sunset Mall. Sunset-to-sunrise swimming comes with floodlights and lifeguards.\n\nNeed a midnight swim? Khor Al Mamzar has a dedicated 300-metre night-swimming beach, open 24 hours. That’s your midnight swim.",
+        "cta": "Save this day-to-night Dubai beach shortlist for your next visit."
+      },
+      "hook_options": [
+        "Dubai’s best beach depends on what time you swim.",
+        "Leaving Dubai’s beaches at sunset means missing the best swim.",
+        "Khor Al Mamzar keeps a 300-metre night-swimming beach open 24 hours."
+      ],
+      "review": {
+        "best_hook": 2,
+        "hook_score": 4,
+        "hook_problem": "It’s specific, but the fact-led phrasing creates less tension than the sunset-swim option.",
+        "hook_fix": "Lead with the sunset decision, then tease the 24-hour beach as the payoff.",
+        "body_pays_off": true,
+        "body_score": 3,
+        "body_problem": "“Need a midnight swim?” and “That’s your midnight swim” repeat the same point.",
+        "tone_score": 4,
+        "tone_fix": "Keep the short lines, but make each transition land with a fresh consequence.",
+        "cta_score": 5,
+        "cta_fix": "none",
+        "unsupported_claim": "none",
+        "niche_pass": false,
+        "niche_problem": "The script has no clear firsthand detail that only someone who has been would know."
+      },
+      "issues": [
+        "An editor scored the body 3/5: “Need a midnight swim?” and “That’s your midnight swim” repeat the same point.",
+        "Fails the Travel playbook: The script has no clear firsthand detail that only someone who has been would know."
+      ]
+    },
+    {
+      "script": {
+        "hook": "Khor Al Mamzar keeps a 300-metre night-swimming beach open 24 hours.",
+        "body": "Kite Beach wins daylight. Kitesurf, play beach tennis, then hit the skatepark. Washrooms and showers are free; loungers cost extra.\n\nAt sunset, switch to Nessnass. Find it behind Sunset Mall; swimming runs sunset to sunrise, with floodlights and lifeguards.\n\nFor a late swim, Khor Al Mamzar has a dedicated 300-metre night-swimming beach, open 24 hours.",
+        "cta": "Save this Dubai beach ranking for your next trip."
+      },
+      "hook_options": [
+        "Khor Al Mamzar keeps a 300-metre night-swimming beach open 24 hours.",
+        "Dubai’s best beach changes after sunset.",
+        "A daytime-only Dubai beach plan misses the best swim."
+      ],
+      "review": {
+        "best_hook": 0,
+        "hook_score": 4,
+        "hook_problem": "The precise 300-metre detail grabs attention, but the line gives little human stake beyond the fact itself.",
+        "hook_fix": "Tie the all-night beach detail to the late-swim decision it helps viewers make.",
+        "body_pays_off": true,
+        "body_score": 4,
+        "body_problem": "“Kite Beach wins daylight” makes a confident ranking claim, but the body gives only a brief list of activities as its case.",
+        "tone_score": 4,
+        "tone_fix": "Make the transitions carry more consequence so each beach choice pushes viewers toward the next.",
+        "cta_score": 3,
+        "cta_fix": "Ask viewers to save the three-beach day-to-night plan rather than a generic ranking.",
+        "unsupported_claim": "none",
+        "niche_pass": false,
+        "niche_problem": "“Find it behind Sunset Mall” is useful navigation, but the script has no detail that clearly feels learned from being there."
+      },
+      "issues": [
+        "An editor scored the CTA 3/5. Fix: Ask viewers to save the three-beach day-to-night plan rather than a generic ranking.",
+        "Fails the Travel playbook: “Find it behind Sunset Mall” is useful navigation, but the script has no detail that clearly feels learned from being there."
+      ]
+    }
+  ],
+  "requested_format": null,
+  "generation_seconds": 114.2,
+  "max_revisions": 3
+}

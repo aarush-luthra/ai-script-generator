@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Script Bench Themes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=Courier+Prime&display=swap" rel="stylesheet">
+<style>
+/* ---------- Theme tokens ---------- */
+body.studio {
+  --bg: #f7f7f8; --surface: #ffffff; --surface-2: #f1f1f4; --border: #e4e4e9;
+  --text: #16161d; --muted: #6b6b7b; --accent: #4f46e5; --accent-soft: #eef0ff; --accent-text: #fff;
+  --ok: #16a34a; --warn: #d97706;
+  --font: "Inter", system-ui, sans-serif; --font-display: "Inter", system-ui, sans-serif; --font-script: "Inter", system-ui, sans-serif;
+  --radius: 14px; --radius-sm: 8px; --shadow: 0 1px 2px rgba(0,0,0,.04), 0 4px 16px rgba(0,0,0,.04);
+}
+body.night {
+  --bg: #0c0d10; --surface: #15171c; --surface-2: #1d2027; --border: #2a2e37;
+  --text: #eef0f4; --muted: #8b91a0; --accent: #c6f432; --accent-soft: rgba(198,244,50,.1); --accent-text: #0c0d10;
+  --ok: #c6f432; --warn: #ff8a5c;
+  --font: "Space Grotesk", system-ui, sans-serif; --font-display: "Space Grotesk", system-ui, sans-serif; --font-script: "Space Grotesk", system-ui, sans-serif;
+  --radius: 18px; --radius-sm: 10px; --shadow: 0 0 0 1px rgba(255,255,255,.02), 0 12px 40px rgba(0,0,0,.4);
+}
+body.paper {
+  --bg: #f4efe6; --surface: #fffdf8; --surface-2: #f0e9dc; --border: #ddd3c2;
+  --text: #2a2419; --muted: #7d715e; --accent: #c2410c; --accent-soft: #fbe9dd; --accent-text: #fffdf8;
+  --ok: #3f7d4e; --warn: #b45309;
+  --font: "IBM Plex Sans", system-ui, sans-serif; --font-display: "Fraunces", Georgia, serif; --font-script: "Courier Prime", "Courier New", monospace;
+  --radius: 4px; --radius-sm: 3px; --shadow: 0 1px 0 #ddd3c2, 0 8px 24px rgba(90,70,40,.06);
+}
+
+/* ---------- Base ---------- */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: var(--font); line-height: 1.5; transition: background .25s, color .25s; }
+.switcher { position: sticky; top: 0; z-index: 10; display: flex; gap: 8px; justify-content: center; align-items: center; flex-wrap: wrap; padding: 12px 16px; background: color-mix(in srgb, var(--bg) 85%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); font-family: "Inter", sans-serif; font-size: 13px; }
+.switcher span { color: var(--muted); margin-right: 4px; }
+.switcher button { border: 1px solid var(--border); background: var(--surface); color: var(--text); padding: 6px 14px; border-radius: 999px; cursor: pointer; font: inherit; }
+.switcher button.active { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+.theme-note { text-align: center; color: var(--muted); font-size: 14px; max-width: 620px; margin: 20px auto 0; padding: 0 16px; }
+
+main { max-width: 920px; margin: 0 auto; padding: 24px 16px 96px; }
+.step-label { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 56px 0 14px; font-weight: 600; }
+.step-label:first-child { margin-top: 24px; }
+
+/* Brand */
+.brand { display: flex; align-items: center; gap: 10px; margin-bottom: 36px; }
+.logo { width: 30px; height: 30px; border-radius: var(--radius-sm); background: var(--accent); color: var(--accent-text); display: grid; place-items: center; font-weight: 700; font-size: 15px; }
+.brand-name { font-family: var(--font-display); font-weight: 600; font-size: 17px; }
+
+/* ---------- Step 1: prompt ---------- */
+.hero { text-align: center; margin-bottom: 28px; }
+.hero h1 { font-family: var(--font-display); font-size: clamp(28px, 5vw, 44px); line-height: 1.1; font-weight: 700; letter-spacing: -.02em; }
+.hero p { color: var(--muted); margin-top: 10px; }
+.composer { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 14px; max-width: 680px; margin: 0 auto; }
+.composer textarea { width: 100%; border: 0; outline: 0; resize: none; background: transparent; color: var(--text); font: inherit; font-size: 17px; min-height: 64px; padding: 6px 8px; }
+.composer-row { display: flex; justify-content: flex-end; }
+.send { background: var(--accent); color: var(--accent-text); border: 0; border-radius: var(--radius-sm); padding: 10px 18px; font: inherit; font-weight: 600; cursor: pointer; }
+.controls { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; max-width: 680px; margin: 14px auto 0; }
+.select { display: flex; align-items: center; gap: 8px; background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 8px 14px; font-size: 14px; cursor: pointer; }
+.select small { color: var(--muted); font-size: 12px; }
+.select b { font-weight: 600; }
+.select .chev { color: var(--muted); font-size: 10px; }
+body.paper .select { border-radius: var(--radius-sm); }
+
+/* ---------- Step 2: directions ---------- */
+.query { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 18px; }
+.query .q { font-family: var(--font-display); font-size: 22px; font-weight: 600; margin-right: 8px; }
+.chip { font-size: 12px; background: var(--surface-2); color: var(--muted); border-radius: 999px; padding: 3px 10px; }
+body.paper .chip { border-radius: var(--radius-sm); }
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.card { position: relative; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; display: flex; flex-direction: column; gap: 12px; box-shadow: var(--shadow); cursor: pointer; transition: transform .15s, border-color .15s; }
+.card:hover { transform: translateY(-2px); border-color: var(--accent); }
+.card.rec { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent), var(--shadow); }
+.badge { position: absolute; top: -10px; right: 14px; background: var(--accent); color: var(--accent-text); font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 999px; }
+body.paper .badge { border-radius: var(--radius-sm); }
+.kind { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; font-weight: 600; color: var(--accent); }
+.format { font-family: var(--font-display); font-size: 18px; font-weight: 600; line-height: 1.2; margin-top: -6px; }
+.hookline { font-family: var(--font-script); font-size: 15px; line-height: 1.4; padding: 10px 12px; background: var(--accent-soft); border-radius: var(--radius-sm); border-left: 3px solid var(--accent); }
+.angle { font-size: 13.5px; color: var(--text); }
+.brief { font-size: 13.5px; color: var(--muted); flex: 1; }
+.use { align-self: flex-start; background: transparent; color: var(--accent); border: 1px solid var(--accent); border-radius: var(--radius-sm); padding: 7px 12px; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; }
+.card.rec .use { background: var(--accent); color: var(--accent-text); }
+
+/* ---------- Step 3: script / editor ---------- */
+.editor { display: grid; grid-template-columns: 1fr 240px; gap: 16px; }
+.doc { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px; }
+.doc-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+.doc-head h2 { font-family: var(--font-display); font-size: 20px; font-weight: 600; }
+.doc-head .meta { font-size: 13px; color: var(--muted); }
+.section { margin-bottom: 22px; }
+.section-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.section-name { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; font-weight: 700; color: var(--muted); }
+.section-name.hook { color: var(--accent); }
+.count { font-size: 12px; color: var(--muted); font-family: "JetBrains Mono", monospace; }
+.count .ok { color: var(--ok); }
+.text { font-family: var(--font-script); font-size: 17px; line-height: 1.65; outline: none; border-radius: var(--radius-sm); padding: 4px 6px; margin: 0 -6px; }
+.text:hover { background: var(--surface-2); }
+.text.hook { font-size: 21px; font-weight: 600; line-height: 1.4; }
+body.paper .text.hook { font-family: var(--font-display); }
+.inline-actions { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+.mini { font: inherit; font-size: 12px; background: var(--surface-2); color: var(--text); border: 1px solid var(--border); border-radius: 999px; padding: 4px 10px; cursor: pointer; }
+body.paper .mini { border-radius: var(--radius-sm); }
+
+.side { display: flex; flex-direction: column; gap: 14px; }
+.panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); }
+.panel h3 { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin-bottom: 12px; }
+.big { font-family: var(--font-display); font-size: 34px; font-weight: 700; line-height: 1; }
+.big small { font-size: 14px; color: var(--muted); font-weight: 500; }
+.meter { height: 8px; background: var(--surface-2); border-radius: 99px; margin: 12px 0 6px; position: relative; overflow: hidden; }
+.meter i { position: absolute; inset: 0 auto 0 0; width: 97%; background: var(--accent); border-radius: 99px; }
+.meter-legend { display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); }
+.split { display: flex; height: 6px; gap: 3px; margin-top: 14px; }
+.split span { border-radius: 99px; background: var(--accent); }
+.split span:nth-child(2) { opacity: .55; } .split span:nth-child(3) { opacity: .3; }
+.checks { list-style: none; font-size: 13px; display: grid; gap: 8px; }
+.checks li { display: flex; gap: 8px; align-items: flex-start; }
+.checks .dot { width: 16px; height: 16px; flex: none; border-radius: 50%; background: var(--ok); color: var(--bg); display: grid; place-items: center; font-size: 10px; font-weight: 700; margin-top: 2px; }
+.score { display: flex; gap: 4px; margin-top: 4px; }
+.score span { width: 22px; height: 6px; border-radius: 99px; background: var(--surface-2); }
+.score span.on { background: var(--accent); }
+.primary { width: 100%; background: var(--accent); color: var(--accent-text); border: 0; border-radius: var(--radius-sm); padding: 11px; font: inherit; font-weight: 600; cursor: pointer; }
+.ghost { width: 100%; background: transparent; color: var(--text); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 10px; font: inherit; font-size: 14px; cursor: pointer; margin-top: 8px; }
+
+/* Theme flourishes */
+body.night .hero h1 span { color: var(--accent); }
+body.night .doc { background: linear-gradient(180deg, var(--surface), #121418); }
+body.paper .doc { background-image: repeating-linear-gradient(transparent 0 27px, rgba(125,113,94,.07) 27px 28px); }
+body.paper .hero h1 { font-weight: 600; font-style: italic; }
+body.studio .hero h1 span { background: linear-gradient(90deg, #4f46e5, #9333ea); -webkit-background-clip: text; background-clip: text; color: transparent; }
+body.paper .hero h1 span { color: var(--accent); }
+
+@media (max-width: 760px) {
+  .cards { grid-template-columns: 1fr; }
+  .editor { grid-template-columns: 1fr; }
+  .doc { padding: 20px; }
+}
+</style>
+</head>
+<body class="studio">
+
+<div class="switcher">
+  <span>Theme:</span>
+  <button data-theme="studio" class="active">A · Studio</button>
+  <button data-theme="night">B · Night Shift</button>
+  <button data-theme="paper">C · Paper Draft</button>
+</div>
+<p class="theme-note" id="note"></p>
+
+<main>
+  <div class="step-label">Step 1 · Landing</div>
+  <div class="brand"><div class="logo">S</div><div class="brand-name">Script Bench</div></div>
+
+  <div class="hero">
+    <h1>Idea in. <span>Script out.</span></h1>
+    <p>Type a rough idea. Pick a direction. Get a script timed to the second.</p>
+  </div>
+  <div class="composer">
+    <textarea>best beaches in dubai</textarea>
+    <div class="composer-row"><button class="send">Find directions →</button></div>
+  </div>
+  <div class="controls">
+    <div class="select"><small>Length</small><b>45s</b><span class="chev">▼</span></div>
+    <div class="select"><small>Niche</small><b>Travel</b><span class="chev">▼</span></div>
+    <div class="select"><small>Tone</small><b>Energetic</b><span class="chev">▼</span></div>
+  </div>
+
+  <div class="step-label">Step 2 · Pick a direction</div>
+  <div class="query">
+    <span class="q">best beaches in dubai</span>
+    <span class="chip">45s</span><span class="chip">Travel</span><span class="chip">Energetic</span>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <div class="kind">Surprising</div>
+      <div class="format">Myth vs reality</div>
+      <div class="hookline">"A Dubai beach packed with options can still be the wrong pick."</div>
+      <div class="angle">Challenges the idea that a beach with more around it makes for a better beach day.</div>
+      <div class="brief">Contrasts JBR's promenade convenience with the trade-off of a busier, built-up beach. Viewers learn when Kite Beach is the better call.</div>
+      <button class="use">Use this direction</button>
+    </div>
+    <div class="card">
+      <div class="kind">Story</div>
+      <div class="format">POV story</div>
+      <div class="hookline">"You reach Sunset Beach just as the Burj Al Arab catches the last light."</div>
+      <div class="angle">A late-afternoon swim turns a familiar landmark into the payoff of a simple moment.</div>
+      <div class="brief">Puts viewers in a golden-hour swim at Sunset Beach with the Burj Al Arab in view. They leave with a vivid, easy-to-picture plan.</div>
+      <button class="use">Use this direction</button>
+    </div>
+    <div class="card rec">
+      <div class="badge">★ Recommended</div>
+      <div class="kind">Practical</div>
+      <div class="format">Mini tutorial</div>
+      <div class="hookline">"Don't pick a Dubai beach until you know what happens after the swim."</div>
+      <div class="angle">Matches each beach to what you want to do after swimming, instead of naming one winner.</div>
+      <div class="brief">A fast three-way choice: Kite Beach for action, JBR for food and a stroll, Sunset Beach for the view. Viewers can match a beach to their day.</div>
+      <button class="use">Use this direction</button>
+    </div>
+  </div>
+
+  <div class="step-label">Step 3 · Script &amp; editor</div>
+  <div class="editor">
+    <div class="doc">
+      <div class="doc-head">
+        <h2>Mini tutorial · best beaches in dubai</h2>
+        <span class="meta">Travel · Energetic · 45s</span>
+      </div>
+
+      <div class="section">
+        <div class="section-head"><span class="section-name hook">Hook</span><span class="count"><span class="ok">13</span> / 15 words · 5.2s</span></div>
+        <div class="text hook" contenteditable>Don't pick a Dubai beach until you know what happens after the swim.</div>
+        <div class="inline-actions"><button class="mini">↻ 3 more hooks</button><button class="mini">Punchier</button></div>
+      </div>
+
+      <div class="section">
+        <div class="section-head"><span class="section-name">Body</span><span class="count"><span class="ok">91</span> / 86 words · 36.4s</span></div>
+        <div class="text" contenteditable>First, choose Kite Beach when you want action. Kitesurf, hit the running track, then cool off. It's the pick when sitting still sounds like wasted daylight. Want lunch and a walk after the water? Choose JBR. The beach sits beside The Walk, lined with cafés and restaurants. For a slower finish, head to Sunset Beach. Swim with the Burj Al Arab in view, then linger for the skyline.</div>
+        <div class="inline-actions"><button class="mini">Tighten</button><button class="mini">Expand</button><button class="mini">↻ Rewrite</button></div>
+      </div>
+
+      <div class="section">
+        <div class="section-head"><span class="section-name">CTA</span><span class="count"><span class="ok">12</span> / 11 words · 4.8s</span></div>
+        <div class="text" contenteditable>Which post-swim plan wins for you? Tell me: action, lunch, or views.</div>
+        <div class="inline-actions"><button class="mini">↻ Try another</button></div>
+      </div>
+    </div>
+
+    <aside class="side">
+      <div class="panel">
+        <h3>Runtime</h3>
+        <div class="big">46.4s <small>/ 45s</small></div>
+        <div class="meter"><i></i></div>
+        <div class="meter-legend"><span>116 words</span><span>target 101–123</span></div>
+        <div class="split"><span style="flex:13"></span><span style="flex:91"></span><span style="flex:12"></span></div>
+        <div class="meter-legend" style="margin-top:6px"><span>hook</span><span>body</span><span>cta</span></div>
+      </div>
+      <div class="panel">
+        <h3>Checks</h3>
+        <ul class="checks">
+          <li><span class="dot">✓</span>Length within ±10%</li>
+          <li><span class="dot">✓</span>Hook is one sentence, ≤15 words</li>
+          <li><span class="dot">✓</span>No clichés or filler</li>
+          <li><span class="dot">✓</span>Every sentence sayable in one breath</li>
+          <li><span class="dot">✓</span>Body pays off the hook</li>
+        </ul>
+        <div style="margin-top:14px;font-size:13px">Hook strength · 4/5</div>
+        <div class="score"><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span></div>
+      </div>
+      <div class="panel">
+        <button class="primary">▶ Read-aloud preview</button>
+        <button class="ghost">Copy script</button>
+        <button class="ghost">← Back to directions</button>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<script>
+const notes = {
+  studio: "A · Studio: clean, light and neutral with one indigo accent. Reads as a serious, trustworthy tool (Linear / Notion feel).",
+  night: "B · Night Shift: dark with an acid-lime accent. Feels like a creator's editing app (CapCut / Descript feel). Good contrast for recording a demo.",
+  paper: "C · Paper Draft: warm paper, serif headings, and the script in a typewriter face so it reads like a real shooting script."
+};
+const note = document.getElementById("note");
+function setTheme(t) {
+  document.body.className = t;
+  note.textContent = notes[t];
+  document.querySelectorAll(".switcher button").forEach(b => b.classList.toggle("active", b.dataset.theme === t));
+}
+document.querySelectorAll(".switcher button").forEach(b => b.addEventListener("click", () => setTheme(b.dataset.theme)));
+setTheme("studio");
+</script>
+</body>
+</html>

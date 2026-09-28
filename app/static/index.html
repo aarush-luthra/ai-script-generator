@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Script Bench</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=Courier+Prime&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="/"><span class="logo">S</span><span class="brand-name">Script Bench</span></a>
+  <button class="link-btn" id="new-btn" hidden>+ New script</button>
+</header>
+
+<main>
+  <!-- Step 1: compose -->
+  <section id="compose">
+    <div class="hero" id="hero">
+      <h1>Idea in. <span>Script out.</span></h1>
+      <p>Type a rough idea. Pick a direction. Get a script timed to the second.</p>
+    </div>
+
+    <form id="compose-form" class="composer-wrap">
+      <div class="composer">
+        <textarea id="topic" rows="2" placeholder="e.g. best beaches in Dubai" maxlength="300" required></textarea>
+        <div class="composer-row">
+          <span class="hint">Enter to send · Shift+Enter for a new line</span>
+          <button class="send" type="submit" id="send-btn">Find directions →</button>
+        </div>
+      </div>
+      <div class="controls">
+        <div class="dd" id="length-dd"></div>
+        <div class="dd" id="niche-dd"></div>
+        <div class="dd" id="tone-dd"></div>
+      </div>
+      <div class="samples-link">
+        <button class="link-btn" type="button" id="samples-btn">View sample prompts and scripts →</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Saved samples from make_samples.py -->
+  <section id="samples" hidden>
+    <button class="link-btn" id="samples-back">← Back</button>
+    <div class="samples-head">
+      <h2>Sample scripts</h2>
+      <p class="subtle">Generated hands-off by <code>make_samples.py</code>: the recommended direction, no human edits, saved exactly as produced.</p>
+    </div>
+    <div class="sample-list" id="sample-list"></div>
+    <article class="sample-detail" id="sample-detail" hidden></article>
+  </section>
+
+  <!-- Step 2: directions -->
+  <section id="directions" hidden>
+    <div class="query">
+      <span class="q" id="query-topic"></span>
+      <span id="query-chips"></span>
+      <button class="link-btn" id="retry-directions">↻ New directions</button>
+    </div>
+    <p class="subtle" id="directions-sub">Pick the direction you want to film.</p>
+    <div class="cards" id="cards"></div>
+    <p class="why" id="why"></p>
+  </section>
+
+  <!-- Step 3: editor -->
+  <section id="editor" hidden>
+    <div class="editor-bar">
+      <div class="editor-bar-main">
+        <button class="link-btn" id="back-btn">← Back to directions</button>
+        <button class="link-btn" id="copy-btn" hidden>Copy script</button>
+      </div>
+    </div>
+
+    <div class="loading" id="script-loading" hidden>
+      <div class="spinner"></div>
+      <p class="loading-title">Writing and checking your script</p>
+      <ol class="progress" id="progress"></ol>
+    </div>
+    <div class="error" id="script-error" hidden></div>
+
+    <div class="editor-grid" id="editor-grid" hidden>
+      <div class="doc">
+        <div class="improving" id="improving" hidden>
+          <span class="spinner small"></span>
+          <span><b id="improving-title"></b><small id="improving-detail"></small></span>
+        </div>
+        <div class="doc-head">
+          <h2 id="doc-title"></h2>
+          <span class="meta" id="doc-meta"></span>
+        </div>
+
+        <div class="section">
+          <div class="section-head"><span class="section-name hook">Hook <span class="tc" id="tc-hook"></span></span><span class="count" id="count-hook"></span></div>
+          <textarea class="text hook" id="ed-hook" rows="1" spellcheck="true"></textarea>
+        </div>
+        <div class="section">
+          <div class="section-head"><span class="section-name">Body <span class="tc" id="tc-body"></span></span><span class="count" id="count-body"></span></div>
+          <textarea class="text" id="ed-body" rows="4" spellcheck="true"></textarea>
+        </div>
+        <div class="section">
+          <div class="section-head"><span class="section-name">CTA <span class="tc" id="tc-cta"></span></span><span class="count" id="count-cta"></span></div>
+          <textarea class="text" id="ed-cta" rows="1" spellcheck="true"></textarea>
+        </div>
+      </div>
+
+      <aside class="side">
+        <div class="panel">
+          <h3>Runtime</h3>
+          <div class="big" id="rt-seconds"></div>
+          <div class="meter"><b id="rt-band"></b><i id="rt-fill"></i></div>
+          <div class="meter-legend"><span id="rt-words"></span><span id="rt-range"></span></div>
+          <div class="split" id="rt-split"><span></span><span></span><span></span></div>
+          <div class="meter-legend split-legend"><span>hook</span><span>body</span><span>cta</span></div>
+        </div>
+        <div class="panel">
+          <h3>Checks</h3>
+          <ul class="checks" id="checks"></ul>
+        </div>
+        <div class="panel" id="sources-panel" hidden>
+          <h3>Researched facts</h3>
+          <ul class="sources" id="sources"></ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <div class="toast" id="toast" hidden></div>
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

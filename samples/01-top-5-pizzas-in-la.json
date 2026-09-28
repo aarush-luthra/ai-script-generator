@@ -1,0 +1,266 @@
+{
+  "model": "gpt-6-luna",
+  "input": {
+    "niche": "Food & restaurants",
+    "topic": "top 5 pizzas in LA",
+    "target_seconds": 60,
+    "tone": "conversational"
+  },
+  "budget": {
+    "seconds": 60,
+    "total": 150,
+    "hook": 15,
+    "body": 120,
+    "cta": 15,
+    "total_min": 135,
+    "total_max": 165
+  },
+  "research": [
+    {
+      "claim": "Pizzeria Sei in Palms serves Tokyo-influenced Neapolitan pizza; its margherita has blistered edges, tomato sauce, and buffalo mozzarella.",
+      "source_url": "https://www.theinfatuation.com/los-angeles/guides/the-best-pizza-in-los-angeles"
+    },
+    {
+      "claim": "Pizzeria Sei tied for second place in the 2026 50 Top Pizza U.S. ranking.",
+      "source_url": "https://www.timeout.com/los-angeles/news/l-a-is-home-to-the-second-best-pizzeria-in-the-country-according-to-a-new-ranking-052926"
+    },
+    {
+      "claim": "At Pizzeria Sei, the Bismarck pizza is topped with prosciutto cotto, egg, fior di latte, pecorino, basil, truffle oil, and sea salt.",
+      "source_url": "https://www.discoverlosangeles.com/eat-drink/the-best-pizzas-in-los-angeles"
+    },
+    {
+      "claim": "Dtown Pizzeria in West Hollywood makes Detroit-style pies with sauce on top and crusty corners; its menu includes a classic pepperoni version.",
+      "source_url": "https://la.eater.com/maps/best-pizza-restaurants-los-angeles-map-guide"
+    },
+    {
+      "claim": "Quarter Sheets in Echo Park serves thick-crust pan pizzas, Sicilian squares, and tomato slices; one listed pie is the Red Top, with mozzarella, red sauce, grana, and basil.",
+      "source_url": "https://www.discoverlosangeles.com/eat-drink/the-best-pizzas-in-los-angeles"
+    },
+    {
+      "claim": "Bub & Grandma’s Pizza at 5101 York Boulevard in Highland Park is a takeout-only East Coast-style sourdough slice shop; its Potato White pie has potato, caramelized onion, Taleggio, mozzarella, Parmesan, and fried rosemary.",
+      "source_url": "https://la.eater.com/maps/best-pizza-restaurants-los-angeles-map-guide"
+    },
+    {
+      "claim": "Pizzana’s Diavola is topped with spicy salami and nduja-walnut romesco, and the restaurant has Los Angeles locations including Brentwood, Marina del Rey, Sherman Oaks, West Hollywood, and Silver Lake.",
+      "source_url": "https://la.eater.com/maps/best-pizza-restaurants-los-angeles-map-guide"
+    },
+    {
+      "claim": "Prime Pizza serves New York-style pizza by the slice and as 18-inch pies, and also offers square, vegan, and gluten-free options.",
+      "source_url": "https://www.discoverlosangeles.com/eat-drink/the-best-pizzas-in-los-angeles"
+    }
+  ],
+  "directions": [
+    {
+      "kind": "Surprising",
+      "format": "myth vs reality",
+      "angle": "The best LA pizza isn’t one style: the list gets better when you stop comparing a Neapolitan pie to a Detroit corner.",
+      "hook": "LA pizza gets a lot better when you stop looking for one perfect style.",
+      "brief": "I’d count down five pies that prove LA’s strongest pizza experiences come in wildly different shapes and textures. You’ll leave with a specific order at each stop—and my pick for the one I’d make the trip for.",
+      "beats": [
+        "Number 5: Dtown Pizzeria’s classic pepperoni, baked Detroit-style with sauce on top and crusty corners.",
+        "Number 4: Quarter Sheets’ Red Top, a thick-crust pan pie with mozzarella, red sauce, grana, and basil.",
+        "Number 3: Pizzana’s Diavola, where spicy salami meets nduja-walnut romesco.",
+        "Number 2: Bub & Grandma’s Potato White, with potato, caramelized onion, Taleggio, mozzarella, Parmesan, and fried rosemary; it’s takeout-only.",
+        "Number 1: Pizzeria Sei’s Bismarck, topped with prosciutto cotto, egg, fior di latte, pecorino, basil, truffle oil, and sea salt—the most distinctive order on this list."
+      ]
+    },
+    {
+      "kind": "Story",
+      "format": "POV or story",
+      "angle": "Make the list a five-stop dinner-planning dilemma: every pizza changes what kind of night you’re having, and the last one wins on sheer specificity.",
+      "hook": "I picked one LA pizza style for dinner—and somehow made choosing harder.",
+      "brief": "I’d tell it like a friend weighing five very different orders, from a crusty Detroit corner to a takeout-only potato pie. You’ll get five concrete picks and a final answer for the pizza I’d choose when I only get one stop.",
+      "beats": [
+        "Number 5: Start with Dtown’s classic pepperoni if you want Detroit-style sauce-on-top pizza and crusty corners.",
+        "Number 4: Quarter Sheets’ Red Top shifts the mood to a thick-crust pan pie with mozzarella, red sauce, grana, and basil.",
+        "Number 3: Pizzana’s Diavola brings spicy salami and nduja-walnut romesco into the running.",
+        "Number 2: Bub & Grandma’s Potato White is the takeout-only curveball: potato, caramelized onion, Taleggio, mozzarella, Parmesan, and fried rosemary.",
+        "Number 1: I’d finish at Pizzeria Sei with the Bismarck—prosciutto cotto, egg, fior di latte, pecorino, basil, truffle oil, and sea salt make it the one I’d plan around."
+      ]
+    },
+    {
+      "kind": "Practical",
+      "format": "ranked countdown",
+      "angle": "Rank by how compelling the exact order is, not by pretending five different LA pizza styles are interchangeable.",
+      "hook": "If you’re choosing just one LA pizza stop, I’d skip the generic slice and go for this list.",
+      "brief": "I’d count down five specific pizzas, with the reason for each pick before its order, and save the most distinctive pie for last. You’ll have a ready-made shortlist for different pizza cravings, plus my clear first choice.",
+      "beats": [
+        "Number 5: For Detroit-style crusty corners, get Dtown Pizzeria’s classic pepperoni, with the sauce on top.",
+        "Number 4: If a thick-crust pan pie is the move, Quarter Sheets’ Red Top has mozzarella, red sauce, grana, and basil.",
+        "Number 3: For a spicy, savory combination, order Pizzana’s Diavola with spicy salami and nduja-walnut romesco.",
+        "Number 2: Bub & Grandma’s is takeout-only, but its Potato White earns a spot with potato, caramelized onion, Taleggio, mozzarella, Parmesan, and fried rosemary.",
+        "Number 1: My pick is Pizzeria Sei’s Bismarck: prosciutto cotto, egg, fior di latte, pecorino, basil, truffle oil, and sea salt make it the most memorable order here."
+      ]
+    }
+  ],
+  "chosen_index": 2,
+  "recommendation_reason": "The dinner-choice story gives the countdown a personal, escalating decision, then pays it off with the unusually specific Bismarck order.",
+  "output": {
+    "hook": "If you skip egg on pizza, you’re missing LA’s most memorable order.",
+    "body": "Number 5: Detroit-style crusty corners make Dtown Pizzeria’s classic pepperoni my crunch pick. The sauce goes on top, so order that.\n\nNumber 4: Quarter Sheets’ thick-crust Red Top is the cheesier, softer pan-pie pick. Order it with mozzarella, red sauce, grana, and basil.\n\nNumber 3: When you want heat, Pizzana’s Diavola brings spicy salami and nduja-walnut romesco. That nutty, savory combo beats a standard spicy pie; order it.\n\nNumber 2: Bub & Grandma’s is takeout-only, so this is the pie to bring home. The Potato White pairs potato and caramelized onion with Taleggio, mozzarella, Parmesan, and fried rosemary.\n\nNumber 1: I’ll admit, egg on pizza sounds odd. But the Bismarck wins for its prosciutto cotto and egg, finished with truffle oil. At Pizzeria Sei, order it with fior di latte, pecorino, basil, and sea salt; that combination makes it the most memorable order here.",
+    "cta": "Send this to whoever you’d split the Bismarck with."
+  },
+  "stats": {
+    "words": {
+      "hook": 12,
+      "body": 143,
+      "cta": 9,
+      "total": 164
+    },
+    "seconds": 65.6
+  },
+  "review": {
+    "best_hook": 0,
+    "hook_score": 4,
+    "hook_problem": "“LA’s most memorable order” is a strong promise, but it leans on a superlative rather than making the egg itself feel surprising.",
+    "hook_fix": "Make the unusual egg-on-pizza combination the source of the curiosity, while keeping the promise tied to the Bismarck payoff.",
+    "body_pays_off": true,
+    "body_score": 3,
+    "body_problem": "“The sauce goes on top, so order that” is unclear: the viewer already knows to order the classic pepperoni, and the instruction doesn’t say what to request.",
+    "tone_score": 4,
+    "tone_fix": "The admission gives it warmth; loosen the repeated “order it” commands so the list sounds more like a friend sharing picks.",
+    "cta_score": 5,
+    "cta_fix": "none",
+    "unsupported_claim": "none",
+    "niche_pass": false,
+    "niche_problem": "“That nutty, savory combo” describes the taste with adjectives only."
+  },
+  "remaining_issues": [
+    "An editor scored the body 3/5: “The sauce goes on top, so order that” is unclear: the viewer already knows to order the classic pepperoni, and the instruction doesn’t say what to request.",
+    "Fails the Food & restaurants playbook: “That nutty, savory combo” describes the taste with adjectives only."
+  ],
+  "drafts": [
+    {
+      "script": {
+        "hook": "Pizzeria Sei’s Bismarck is the most memorable pizza order in Los Angeles.",
+        "body": "Number 5: For crusty Detroit corners, Dtown Pizzeria’s sauce-on-top classic pepperoni is the move.\n\nNumber 4: For a thick-pan craving, Quarter Sheets’ Red Top is my pick: mozzarella, red sauce, grana, and basil. Order that when you want the crust, not a pile of toppings, to lead.\n\nNumber 3: Pizzana’s Diavola brings the spicy, savory hit: spicy salami with nduja-walnut romesco. Order it when you want heat without piling on toppings.\n\nNumber 2: Bub & Grandma’s is takeout-only, but the Potato White holds its own: potato, caramelized onion, Taleggio, mozzarella, Parmesan, and fried rosemary.\n\nNumber 1: Pizzeria Sei’s Bismarck is my winner for the most memorable combination: prosciutto cotto, egg, fior di latte, pecorino, basil, truffle oil, and sea salt. I’ll admit, egg on pizza sounds odd at first.",
+        "cta": "Send this to whoever you’d split the Bismarck with."
+      },
+      "hook_options": [
+        "Pizzeria Sei’s Bismarck is the most memorable pizza order in Los Angeles.",
+        "Choosing LA pizza by crust style alone can make you miss the pie worth ordering.",
+        "My number-one LA pizza has egg, prosciutto cotto, truffle oil, and sea salt."
+      ],
+      "review": {
+        "best_hook": 0,
+        "hook_score": 4,
+        "hook_problem": "“Most memorable” creates a strong promise, but the body gives only a brief ingredient-based reason for the claim.",
+        "hook_fix": "Make the Bismarck’s unusual combination feel like the reason it sticks with you, not just a list of toppings.",
+        "body_pays_off": true,
+        "body_score": 3,
+        "body_problem": "“Spicy, savory hit” and “want heat” repeat the same point in the Diavola entry.",
+        "tone_score": 4,
+        "tone_fix": "Break up the repeated ranking-and-instruction rhythm with a more natural aside or transition between a couple of entries.",
+        "cta_score": 5,
+        "cta_fix": "none",
+        "unsupported_claim": "none",
+        "niche_pass": false,
+        "niche_problem": "The #2 entry says “the Potato White holds its own” but never clearly tells the viewer to order it."
+      },
+      "issues": [
+        "This body sentence is 26 words, too long to say in one breath; split it: \"Number 1: Pizzeria Sei’s Bismarck is my winner for the most memorable combination: prosciutto cotto, egg, fior di latte, pecorino, basil, truffle oil, and sea salt.\"",
+        "An editor scored the body 3/5: “Spicy, savory hit” and “want heat” repeat the same point in the Diavola entry.",
+        "Fails the Food & restaurants playbook: The #2 entry says “the Potato White holds its own” but never clearly tells the viewer to order it."
+      ]
+    },
+    {
+      "script": {
+        "hook": "If you skip egg on pizza, you’re missing LA’s most memorable order.",
+        "body": "Number 5: Crusty corners and sauce on top make this my Detroit pick. Get Dtown Pizzeria’s classic pepperoni.\n\nNumber 4: That thick pan crust needs a topping that doesn’t bury it. Order Quarter Sheets’ Red Top: mozzarella, red sauce, grana, and basil.\n\nNumber 3: The Diavola stands out for its walnut-rich sauce, not just the heat. Order Pizzana’s Diavola, with spicy salami and nduja-walnut romesco.\n\nNumber 2: Fried rosemary and caramelized onion keep this rich white pie from feeling one-note. Order Bub & Grandma’s Potato White for potato, caramelized onion, Taleggio, mozzarella, Parmesan, and fried rosemary.\n\nNumber 1: My winner is Pizzeria Sei’s Bismarck, because egg and truffle oil make it the most memorable order here. I’ll admit, egg on pizza sounds odd at first. Get it with prosciutto cotto, egg, fior di latte, pecorino, basil, truffle oil, and sea salt.",
+        "cta": "Send this to the person you’d split the Bismarck with."
+      },
+      "hook_options": [
+        "Pizzeria Sei’s Bismarck is the most memorable pizza order in Los Angeles.",
+        "If you skip egg on pizza, you’re missing LA’s most memorable order.",
+        "One LA pizza puts egg, truffle oil, and prosciutto cotto on the same pie."
+      ],
+      "review": {
+        "best_hook": 1,
+        "hook_score": 4,
+        "hook_problem": "“You’re missing LA’s most memorable order” is intriguing, but the superlative is broad before the video gives a reason to believe it.",
+        "hook_fix": "Put the unusual egg-on-pizza detail up front and let the Bismarck’s specific toppings earn the claim.",
+        "body_pays_off": true,
+        "body_score": 3,
+        "body_problem": "The #1 explanation repeats itself: “egg and truffle oil make it the most memorable order here” is followed by another list naming both toppings.",
+        "tone_score": 3,
+        "tone_fix": "Keep the small admission, but loosen a couple of the polished menu-description lines so they sound more like a friend explaining what they’d order.",
+        "cta_score": 5,
+        "cta_fix": "none",
+        "unsupported_claim": "none",
+        "niche_pass": true,
+        "niche_problem": "none"
+      },
+      "issues": [
+        "An editor scored the body 3/5: The #1 explanation repeats itself: “egg and truffle oil make it the most memorable order here” is followed by another list naming both toppings.",
+        "An editor scored the conversational tone 3/5. Fix: Keep the small admission, but loosen a couple of the polished menu-description lines so they sound more like a friend explaining what they’d order."
+      ]
+    },
+    {
+      "script": {
+        "hook": "If you skip egg on pizza, you’re missing LA’s most memorable order.",
+        "body": "Number 5: For crunchy Detroit corners, Dtown’s classic pepperoni is my pick. The sauce goes on top, so order that one.\n\nNumber 4: When thick pan crust sounds right, Quarter Sheets’ Red Top keeps things simple: mozzarella, red sauce, grana, basil.\n\nNumber 3: Pizzana’s Diavola is the spicy one, but the nduja-walnut romesco brings a savory, nutty edge too. Order it with spicy salami; it’s my pick when pepperoni feels predictable.\n\nNumber 2: Fried rosemary and caramelized onion make Bub & Grandma’s Potato White my takeout pick. It’s takeout-only; get it with potato, Taleggio, mozzarella, and Parmesan too.\n\nNumber 1: I’ll admit, egg on pizza sounds odd at first, but Pizzeria Sei’s Bismarck is my clear winner: prosciutto cotto, egg, fior di latte, pecorino, basil, truffle oil, and sea salt.",
+        "cta": "Send this to whoever you’d split the Bismarck with."
+      },
+      "hook_options": [
+        "If you skip egg on pizza, you’re missing LA’s most memorable order.",
+        "Pizzeria Sei’s Bismarck beats every other LA pizza on this list.",
+        "Would you order a pizza with potato, Taleggio, and fried rosemary?"
+      ],
+      "review": {
+        "best_hook": 0,
+        "hook_score": 4,
+        "hook_problem": "“Most memorable” is a broad, subjective promise rather than a sharp reason to stop scrolling.",
+        "hook_fix": "Tease what makes the egg-and-prosciutto combination unexpectedly memorable.",
+        "body_pays_off": true,
+        "body_score": 3,
+        "body_problem": "The Potato White order details feel repeated across “Fried rosemary and caramelized onion” and “get it with potato, Taleggio, mozzarella, and Parmesan too.”",
+        "tone_score": 4,
+        "tone_fix": "The ingredient roll calls make a couple of lines sound more like menu copy than a friend’s recommendation.",
+        "cta_score": 5,
+        "cta_fix": "none",
+        "unsupported_claim": "none",
+        "niche_pass": false,
+        "niche_problem": "The ranking names the Bismarck “my clear winner” but gives no specific reason it beats the other four pizzas."
+      },
+      "issues": [
+        "This body sentence is 32 words, too long to say in one breath; split it: \"Number 1: I’ll admit, egg on pizza sounds odd at first, but Pizzeria Sei’s Bismarck is my clear winner: prosciutto cotto, egg, fior di latte, pecorino, basil, truffle oil, and sea salt.\"",
+        "An editor scored the body 3/5: The Potato White order details feel repeated across “Fried rosemary and caramelized onion” and “get it with potato, Taleggio, mozzarella, and Parmesan too.”",
+        "Fails the Food & restaurants playbook: The ranking names the Bismarck “my clear winner” but gives no specific reason it beats the other four pizzas."
+      ]
+    },
+    {
+      "script": {
+        "hook": "If you skip egg on pizza, you’re missing LA’s most memorable order.",
+        "body": "Number 5: Detroit-style crusty corners make Dtown Pizzeria’s classic pepperoni my crunch pick. The sauce goes on top, so order that.\n\nNumber 4: Quarter Sheets’ thick-crust Red Top is the cheesier, softer pan-pie pick. Order it with mozzarella, red sauce, grana, and basil.\n\nNumber 3: When you want heat, Pizzana’s Diavola brings spicy salami and nduja-walnut romesco. That nutty, savory combo beats a standard spicy pie; order it.\n\nNumber 2: Bub & Grandma’s is takeout-only, so this is the pie to bring home. The Potato White pairs potato and caramelized onion with Taleggio, mozzarella, Parmesan, and fried rosemary.\n\nNumber 1: I’ll admit, egg on pizza sounds odd. But the Bismarck wins for its prosciutto cotto and egg, finished with truffle oil. At Pizzeria Sei, order it with fior di latte, pecorino, basil, and sea salt; that combination makes it the most memorable order here.",
+        "cta": "Send this to whoever you’d split the Bismarck with."
+      },
+      "hook_options": [
+        "If you skip egg on pizza, you’re missing LA’s most memorable order.",
+        "Pizzeria Sei’s egg-topped Bismarck is a better LA pizza order than another pepperoni pie."
+      ],
+      "review": {
+        "best_hook": 0,
+        "hook_score": 4,
+        "hook_problem": "“LA’s most memorable order” is a strong promise, but it leans on a superlative rather than making the egg itself feel surprising.",
+        "hook_fix": "Make the unusual egg-on-pizza combination the source of the curiosity, while keeping the promise tied to the Bismarck payoff.",
+        "body_pays_off": true,
+        "body_score": 3,
+        "body_problem": "“The sauce goes on top, so order that” is unclear: the viewer already knows to order the classic pepperoni, and the instruction doesn’t say what to request.",
+        "tone_score": 4,
+        "tone_fix": "The admission gives it warmth; loosen the repeated “order it” commands so the list sounds more like a friend sharing picks.",
+        "cta_score": 5,
+        "cta_fix": "none",
+        "unsupported_claim": "none",
+        "niche_pass": false,
+        "niche_problem": "“That nutty, savory combo” describes the taste with adjectives only."
+      },
+      "issues": [
+        "An editor scored the body 3/5: “The sauce goes on top, so order that” is unclear: the viewer already knows to order the classic pepperoni, and the instruction doesn’t say what to request.",
+        "Fails the Food & restaurants playbook: “That nutty, savory combo” describes the taste with adjectives only."
+      ]
+    }
+  ],
+  "requested_format": "ranked countdown",
+  "generation_seconds": 168.9,
+  "max_revisions": 3
+}

@@ -1,0 +1,7 @@
+openai>=3.19
+pydantic>=2.13
+python-dotenv>=1.0
+pytest>=8.0
+fastapi>=0.141
+uvicorn>=0.54
+httpx>=0.28
