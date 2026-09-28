@@ -166,5 +166,4 @@ make_samples.py    regenerates samples/
 tests/             90 tests with a fake model: no API key, no network
 NOTE.md            what makes a script good, and how the generator gets there
 TODO.md            what's next (editor features, quality)
-mockups/           the three design themes explored before building the UI
 ```
